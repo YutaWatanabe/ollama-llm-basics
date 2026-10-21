@@ -1,0 +1,27 @@
+{
+  "model": "qwen3:1.7b",
+  "stream": false,
+  "think": false,
+  "messages": [
+    {
+      "role": "user",
+      "content": "東京の気温を調べてください。"
+    }
+  ],
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "get_weather",
+        "description": "指定した都市の現在の気温を取得する",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "city": { "type": "string" }
+          },
+          "required": ["city"]
+        }
+      }
+    }
+  ]
+}

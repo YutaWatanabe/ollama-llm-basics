@@ -1,0 +1,10 @@
+{
+  "model": "qwen3:1.7b",
+  "stream": false,
+  "think": false,
+  "messages": [
+    { "role": "user", "content": "私の名前は太郎です。覚えておいてください。" },
+    { "role": "assistant", "content": "わかりました。" },
+    { "role": "user", "content": "私の名前は何ですか？" }
+  ]
+}

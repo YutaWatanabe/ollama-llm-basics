@@ -1,0 +1,9 @@
+[project]
+name = "ollama-starter"
+version = "0.1.0"
+description = "Ollama と curl で LLM の仕組み（会話履歴・Tool Calling・Agent Loop）を体験するハンズオン"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31",
+]

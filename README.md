@@ -1,4 +1,4 @@
-# ollama-starter
+# ollama llm basics
 
 Ollama と `curl` で、LLM の仕組み（テキスト生成・会話履歴・Tool Calling・Agent Loop）を体験するためのコード置き場です。解説は [Guide.md](Guide.md) にあります。
 

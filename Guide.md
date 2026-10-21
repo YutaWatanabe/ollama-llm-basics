@@ -13,7 +13,7 @@ Claude Code や Codex などの AI コーディングエージェントが普及
 | Tool Calling | LLM はツールを実行せず、呼び出しの JSON を返すだけ |
 | Agent Loop | Tool Calling の流れをループで繰り返す |
 
-記事で使ったコマンドやコードは[リポジトリ](README.md)にまとめています。
+記事で使ったコマンドやコードは[リポジトリ](https://github.com/YutaWatanabe/ollama-llm-basics)にまとめています。
 
 ## 準備
 
